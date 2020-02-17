@@ -1,0 +1,149 @@
+.woocommerce-cart-form{
+    margin-top: 100px;
+}
+
+.carrinho-Title{
+    margin-top: 100px;
+    font-family: 'Ubuntu mono';
+    color: #2e2e2e;
+    font-size: 4em;
+    text-align: center;    
+}
+
+/* cart list style */
+.woocommerce-cart-form {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.woocommerce-cart-form table{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* cart list items */
+.woocommerce-cart-form .product-thumbnail *{
+    width: 35%;
+    height: auto;
+}
+
+.woocommerce-cart-form .product-remove{
+    color: #0b0b0b;
+    font-family: 'arial';
+    font-weight: 700;
+}
+
+.woocommerce-cart-form .product-remove a{
+    text-decoration: none;
+    color: red;
+    font-size: 2.5em;
+}
+
+.woocommerce-cart-form .product-name{
+    font-family: 'arial';
+}
+
+.woocommerce-cart-form .product-quantity input[type="number"]{
+    width: 65px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #9f9f9f;
+    font-family: 'arial';
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.carrinho-container .woocommerce-notices-wrapper{
+    position: relative;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.woocommerce-cart-form th{
+    color: #3e3e3e;
+    font-family: 'arial';
+    background-color: #eaeaea;     
+}
+
+.woocommerce-cart-form tr:nth-child(odd){
+    background-color: #efefef;
+}
+
+.woocommerce-cart-form table tbody tr{
+    border-radius: 55px;
+}
+
+.woocommerce-cart-form table td{
+    border: 1px solid white;
+    text-align: center;
+}
+
+.woocommerce-cart-form .coupon label{
+    font-family: 'arial';
+}
+
+.woocommerce-cart-form .coupon input[type="text"]{
+    width: 130px;
+    height: 25px;
+    text-align: center;
+}
+
+.woocommerce-cart-form .coupon button[name="apply_coupon"], button[name="update_cart"]{
+    width: 110px;
+    height: 30px;
+    border: none;
+    background-color: #339b33;
+    font-family: 'arial';
+    color: white;
+}
+
+button[name="update_cart"]{    
+    background-color: #ffba00;
+    color: black;
+    margin-top: 20px;
+    width: 150px;
+}
+
+.cart-collaterals .cart_totals h2{
+    font-family: 'arial';
+}
+
+.cart-collaterals .cart_totals{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+} 
+
+.cart-collaterals .cart_totals .cart-subtotal th, .cart-collaterals .cart_totals .order-total th{
+    font-family: 'arial';
+}
+
+.wc-proceed-to-checkout a:nth-child(1){
+    color: green;
+    text-decoration: none;
+    padding: 25px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+.wc-proceed-to-checkout a:nth-child(1){
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #339b33;    
+    border-radius: 0;
+}
+
+.wc-proceed-to-checkout{
+    margin-top: 25px;
+    height: 80px;
+}
+
+.cart-collaterals {
+    text-align:center;
+}
+
+.cart-collaterals p, h3{
+    background-color: #cccccc;
+    padding: 15px;    
+}
